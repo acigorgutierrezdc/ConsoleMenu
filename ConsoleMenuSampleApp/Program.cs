@@ -54,8 +54,8 @@ namespace ConsoleMenuSampleApp
         .Configure(commonConfig)
         .Configure(config =>
         {
-          config.Title = "Main menu";
-          config.EnableWriteTitle = true;
+          //config.Title = "Main menu";
+          //config.EnableWriteTitle = true;
           config.EnableBreadcrumb = true;
         });
 
